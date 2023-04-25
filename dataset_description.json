@@ -14,5 +14,5 @@
     "Funding": [
         "Swiss National Science Foundation: grants 204593 (ScanOMetrics) and CRSII5_180365 (The Swiss-First Study)"
     ],
-    "HowToAcknowledge": ""
+    "HowToAcknowledge": "If you use these data, please also cite the original paper:\n\n    M. Rebsamen, M. Capiglioni, R. Hoepner, A. Salmen, R. Wiest, P. Radojewski, C. Rummel. Growing importance of brain morphometry analysis in the clinical routine: The hidden impact of MR sequence parameters. Journal of Neuroradiology, 2023."
 }
