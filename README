@@ -6,7 +6,7 @@ CONTENT
 -------
 
 The BIDS directory is organized as follows:
-```
+~~~
    └── PhantomOfBern/
       ├─ code/
       │
@@ -33,7 +33,7 @@ The BIDS directory is organized as follows:
       │  └─ ses-<label>/
       │     └─ anat/ # Folder with scan's json and nifti files
       ├─ ...
-```
+~~~
 
 ACKNOWLEDGEMENT
 ---------------
