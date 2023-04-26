@@ -1,0 +1,77 @@
+The Phantom of Bern: repeated scans of two volunteers with eight different combinations of MR sequence parameters
+
+The Phantom of Bern consists of eight same-session re-scans of T1-weighted MRI with different combinations of sequence parameters, acquired on two healthy subjects. The subjects have agreed in writing to the publication of these data, including the original anonymized DICOM files and waving the requirement of defacing. Usage is permitted under the terms of the data usage agreement stated below.
+
+CONTENT
+-------
+
+The BIDS directory is organized as follows:
+
+    └── PhantomOfBern/
+       ├─ code/
+       │
+       ├─ derivatives/
+       │  ├─ dldirect_v1-0-0/
+       │  │  ├─ results/  # Folder with flattened subject/session inputs and outputs of DL+DiReCT
+       │  │  └─ stats2table/ # Folder with tables summarizing all DL+DiReCT outputs
+       │  ├─ freesurfer_v6-0-0/
+       │  │  ├─ results/  # Folder with flattened subject/session inputs and outputs of freesurfer
+       │  │  └─ stats2table/ # Folder with tables summarizing all freesurfer outputs
+       │  └─ siena_v2-6/
+       │     ├─ SIENA_results.csv  # Siena's main output
+       │     └─ ... # Flattened subject/session inputs and outputs of SIENA
+       │
+       ├─ sourcedata/
+       │  ├─ POBHC0001/
+       │  │  └─ 17473A/
+       │  │     └─ ... # Anonymized DICOM folders
+       │  └─ POBHC0002/
+       │     └─ 14610A/
+       │        └─ ... # Anonymized DICOM folders
+       │
+       ├─ sub-<label>/
+       │  └─ ses-<label>/
+       │     └─ anat/ # Folder with scan's json and nifti files
+       ├─ ...
+
+
+ACKNOWLEDGEMENT
+---------------
+
+The dataset can be cited as:
+
+    M. Rebsamen, D. Romascano, M. Capiglioni, R. Wiest, P. Radojewski, C. Rummel. The Phantom of Bern:
+    repeated scans of two volunteers with eight different combinations of MR sequence parameters.
+    OpenNeuro, 2023.
+
+
+If you use these data, please also cite the original paper:
+
+    M. Rebsamen, M. Capiglioni, R. Hoepner, A. Salmen, R. Wiest, P. Radojewski, C. Rummel. Growing importance
+    of brain morphometry analysis in the clinical routine: The hidden impact of MR sequence parameters.
+    Journal of Neuroradiology, 2023.
+
+    
+DATA USE AGREEMENT
+------------------
+
+The Phantom of Bern is distributed under the following terms, to which you agree by downloading and/or using the dataset: 
+
+1. Any intentional identification of a subject or disclosure of his or her confidential information violates the promise of confidentiality given to the providers of the information. Therefore, all users of the dataset agree:
+
+-   To use these datasets solely for research and development or statistical purposes and not for investigation of specific subjects
+
+-   To make no use of the identity of any subject discovered inadvertently, and to advise the providers of any such discovery (crummel@web.de)
+
+2. When publicly presenting any results or algorithms that benefited from the use of the Phantom of Bern, you should acknowledge it, see above. Papers, book chapters, books, posters, oral presentations, and all other printed and digital presentations of results derived from the Phantom of Bern data should cite the publications listed above.
+
+3. Redistribution of data (complete or in parts) in any manner without explicit inclusion of this data use agreement is prohibited.
+
+4. Usage of the data for testing commercial tools is explicitly allowed. Usage for military purposes is prohibited. 
+
+5. The original collector and provider of the data (see acknowledgement) and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.
+
+FUNDING
+-------
+
+This work was supported by the Swiss National Science Foundation under grant numbers 204593 (ScanOMetrics) and CRSII5_180365 (The Swiss-First Study).
