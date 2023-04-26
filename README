@@ -8,31 +8,31 @@ CONTENT
 The BIDS directory is organized as follows:
 
     └── PhantomOfBern
-       ├─ code
-       │
-       ├─ derivatives
-       │  ├─ dldirect_v1-0-0 (~330 Mb)
-       │  │  ├─ results:  Folder with flattened subject/session inputs and outputs of DL+DiReCT
-       │  │  └─ stats2table: Folder with tables summarizing all DL+DiReCT outputs
-       │  ├─ freesurfer_v6-0-0 (~6.7 Gb)
-       │  │  ├─ results: Folder with flattened subject/session inputs and outputs of freesurfer
-       │  │  └─ stats2table: Folder with tables summarizing all freesurfer outputs
-       │  └─ siena_v2-6 (~1.4 Gb)
-       │     ├─ SIENA_results.csv: Siena's main output
-       │     └─ ... Flattened subject/session inputs and outputs of SIENA
-       │
-       ├─ sourcedata (~1.0 Gb)
-       │  ├─ POBHC0001
-       │  │  └─ 17473A
-       │  │     └─ ... # Anonymized DICOM folders
-       │  └─ POBHC0002
-       │     └─ 14610A
-       │        └─ ... # Anonymized DICOM folders
-       │
-       ├─ sub-<label> (~105Mb per subject)
-       │  └─ ses-<label>
-       │     └─ anat: Folder with scan's json and nifti files
-       ├─ ...
+           ├─ code
+           │
+           ├─ derivatives
+           │  ├─ dldirect_v1-0-0 (~330 Mb)
+           │  │  ├─ results:  Folder with flattened subject/session inputs and outputs of DL+DiReCT
+           │  │  └─ stats2table: Folder with tables summarizing all DL+DiReCT outputs
+           │  ├─ freesurfer_v6-0-0 (~6.7 Gb)
+           │  │  ├─ results: Folder with flattened subject/session inputs and outputs of freesurfer
+           │  │  └─ stats2table: Folder with tables summarizing all freesurfer outputs
+           │  └─ siena_v2-6 (~1.4 Gb)
+           │     ├─ SIENA_results.csv: Siena's main output
+           │     └─ ... Flattened subject/session inputs and outputs of SIENA
+           │
+           ├─ sourcedata (~1.0 Gb)
+           │  ├─ POBHC0001
+           │  │  └─ 17473A
+           │  │     └─ ... # Anonymized DICOM folders
+           │  └─ POBHC0002
+           │     └─ 14610A
+           │        └─ ... # Anonymized DICOM folders
+           │
+           ├─ sub-<label> (~105Mb per subject)
+           │  └─ ses-<label>
+           │     └─ anat: Folder with scan's json and nifti files
+           ├─ ...
 
 
 ACKNOWLEDGEMENT
