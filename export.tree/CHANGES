@@ -1,0 +1,4 @@
+1.0.1 2023-04-26
+  - Harmonized subject ordering in Freesurfer and DL+DiReCT output tables in derivatives/freesurfer_v6-0-0/stats2table and derivatives/dldirect_v1-0-0/stats2table
+1.0.0 2023-04-26
+  - Version 1, original release
